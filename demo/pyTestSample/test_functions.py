@@ -10,7 +10,7 @@ def test_printHello_1():
 def test_printHello_2():
     a=5
     assert a == 6
-    print("Hello World_2")
+    print("Hello World_3")
 
 @pytest.mark.Execute
 def test_printHello_3():
