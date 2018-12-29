@@ -17,8 +17,8 @@ class TestSample:
         driver.set_page_load_timeout(30)
         driver.maximize_window()
         driver.implicitly_wait(30)
-        #driver.get("https://opensource-demo.orangehrmlive.com/")
-        driver.get("https://www.google.com")
+        driver.get("https://opensource-demo.orangehrmlive.com/")
+        #driver.get("https://www.google.com")
         yield
         driver.close()
         driver.quit()
